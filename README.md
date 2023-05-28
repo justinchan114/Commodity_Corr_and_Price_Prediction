@@ -20,5 +20,5 @@ A tensorflow neural network is used to predict Crude Oil's price. The input is H
 GridSearchCV from sklearn was used to select the best hyperparameters for model, including no. of hidden layers and no. of nodes (due to limited computing power, only a few hyperparameter combination was tested).</br>
 Different rolling period was also compared to find the best windowed data.
 
-### Conclusion
+## Conclusion
 In this project we have successfully predicted the price of Crude Oil, based on the price of Heating Oil and Brent Crude Oil from the same period, with a R^2 score of ~0.83. It is noted that rolling of daily close price (of 5 days and 10 days) did not improve the performance. We may need to further analyze price of a shorter period (say minutes or seconds) to observe more correlation between commodities. As Brent Crude Oil and Crude Oil (WTI) is one of the most liquid commodities in market, they have very high market efficiency and prices reactions should be within minutes, if not seconds.
