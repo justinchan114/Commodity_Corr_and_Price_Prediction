@@ -1,4 +1,4 @@
-# Commodity_Correlation
+# Commodity Correlation and Price Prediction
 ## Introduction
 This project aims to estimate the price of a commodity, with refence to the prices from other commodities that has high correlation in the same period.
 
